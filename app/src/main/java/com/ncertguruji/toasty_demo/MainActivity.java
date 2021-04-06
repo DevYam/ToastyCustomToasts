@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 //                Toasty.warning(MainActivity.this, "Press Again to exit.", Toast.LENGTH_SHORT, true).show();
 
-                Toasty.custom(MainActivity.this, "Press again to exit the app", R.drawable.ic_baseline_exit_to_app_24, R.color.warningColor, Toast.LENGTH_LONG, true,
+                Toasty.custom(MainActivity.this, "Press again to exit the app", R.drawable.ic_sign_out, R.color.warningColor, Toast.LENGTH_LONG, true,
                         true).show();
 
             }
